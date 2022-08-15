@@ -11,6 +11,7 @@
 		DE32A8B528A9E84B00423B3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32A8B428A9E84B00423B3F /* ContentView.swift */; };
 		DE32A8B728A9E84D00423B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE32A8B628A9E84D00423B3F /* Assets.xcassets */; };
 		DE32A8BA28A9E84D00423B3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE32A8B928A9E84D00423B3F /* Preview Assets.xcassets */; };
+		DE32A8C128AAFE1900423B3F /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE32A8C028AAFE1900423B3F /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DE32A8B428A9E84B00423B3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE32A8B628A9E84D00423B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE32A8B928A9E84D00423B3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE32A8C028AAFE1900423B3F /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				DE32A8B228A9E84B00423B3F /* BetterRestApp.swift */,
+				DE32A8C028AAFE1900423B3F /* SleepCalculator.mlmodel */,
 				DE32A8B428A9E84B00423B3F /* ContentView.swift */,
 				DE32A8B628A9E84D00423B3F /* Assets.xcassets */,
 				DE32A8B828A9E84D00423B3F /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE32A8C128AAFE1900423B3F /* SleepCalculator.mlmodel in Sources */,
 				DE32A8B528A9E84B00423B3F /* ContentView.swift in Sources */,
 				DE32A8B328A9E84B00423B3F /* BetterRestApp.swift in Sources */,
 			);
